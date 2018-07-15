@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="bb1a3886dbd75300329ffe1ebf96192e" sys_domain="global" table="x_80404_bugs_bunny_guest" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>workhstayh</sys_created_by>
+            <sys_created_on>2018-07-15 21:10:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>771a3886dbd75300329ffe1ebf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_80404_bugs_bunny_guest" name="x_80404_bugs_bunny_guest" sys_domain="global" view="Default view">bb1a3886dbd75300329ffe1ebf96192e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_80404_bugs_bunny_guest" sys_domain="global" view="Default view">ac0f2259db931300329ffe1ebf9619b9</sys_ui_section>
+            <sys_updated_by>workhstayh</sys_updated_by>
+            <sys_updated_on>2018-07-15 21:10:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>workhstayh</sys_created_by>
+            <sys_created_on>2018-07-15 21:10:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf1a3886dbd75300329ffe1ebf961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_80404_bugs_bunny_guest" name="x_80404_bugs_bunny_guest" sys_domain="global" view="Default view">bb1a3886dbd75300329ffe1ebf96192e</sys_ui_form>
+            <sys_ui_section caption="Simple" display_value="Simple" name="x_80404_bugs_bunny_guest" sys_domain="global" view="Default view">bf1a3886dbd75300329ffe1ebf96192f</sys_ui_section>
+            <sys_updated_by>workhstayh</sys_updated_by>
+            <sys_updated_on>2018-07-15 21:10:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_80404_bugs_bunny_guest</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>workhstayh</sys_created_by>
+            <sys_created_on>2018-07-15 21:10:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb1a3886dbd75300329ffe1ebf96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_80404_bugs_bunny_guest</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Bugs Bunny Hotel" source="x_80404_bugs_bunny">1676ee91db931300329ffe1ebf96193b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bugs Bunny Hotel">1676ee91db931300329ffe1ebf96193b</sys_scope>
+            <sys_update_name>sys_ui_form_sections_bb1a3886dbd75300329ffe1ebf96192e</sys_update_name>
+            <sys_updated_by>workhstayh</sys_updated_by>
+            <sys_updated_on>2018-07-15 21:10:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

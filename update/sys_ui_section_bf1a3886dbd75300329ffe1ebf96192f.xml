@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Simple" section_id="bf1a3886dbd75300329ffe1ebf96192f" sys_domain="global" table="x_80404_bugs_bunny_guest" version="3" view="">
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Simple</caption>
+            <header>false</header>
+            <name>x_80404_bugs_bunny_guest</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>workhstayh</sys_created_by>
+            <sys_created_on>2018-07-15 21:10:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf1a3886dbd75300329ffe1ebf96192f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Simple</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Bugs Bunny Hotel" source="x_80404_bugs_bunny">1676ee91db931300329ffe1ebf96193b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bugs Bunny Hotel">1676ee91db931300329ffe1ebf96193b</sys_scope>
+            <sys_update_name>sys_ui_section_bf1a3886dbd75300329ffe1ebf96192f</sys_update_name>
+            <sys_updated_by>workhstayh</sys_updated_by>
+            <sys_updated_on>2018-07-15 21:10:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
