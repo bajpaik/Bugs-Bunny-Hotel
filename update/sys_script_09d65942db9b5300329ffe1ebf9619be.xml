@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_80404_bugs_bunny_room</collection>
+        <condition/>
+        <description>automatically populate the floor number when&#13;
+you create or update a Room record</description>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_80404_bugs_bunny_room">floorISEMPTY^EQ<item endquery="false" field="floor" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Set default floor number</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	current.floor = current.number.substring(0,1);
+	//Take the first digit of the number and assign it to the floor field
+gs.addInfoMessage('Set default floor number BR executed');
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>workhstayh</sys_created_by>
+        <sys_created_on>2018-07-15 23:18:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>09d65942db9b5300329ffe1ebf9619be</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Set default floor number</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Bugs Bunny Hotel" source="x_80404_bugs_bunny">1676ee91db931300329ffe1ebf96193b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bugs Bunny Hotel">1676ee91db931300329ffe1ebf96193b</sys_scope>
+        <sys_update_name>sys_script_09d65942db9b5300329ffe1ebf9619be</sys_update_name>
+        <sys_updated_by>workhstayh</sys_updated_by>
+        <sys_updated_on>2018-07-18 21:18:09</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=09d65942db9b5300329ffe1ebf9619be"/>
+</record_update>

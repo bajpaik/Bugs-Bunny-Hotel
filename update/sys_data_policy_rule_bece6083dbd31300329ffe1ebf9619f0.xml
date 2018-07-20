@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>comments</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>workhstayh</sys_created_by>
+        <sys_created_on>2018-07-18 22:56:20</sys_created_on>
+        <sys_data_policy display_value="Must have a comment if in past">628daccfdb931300329ffe1ebf9619ea</sys_data_policy>
+        <sys_id>bece6083dbd31300329ffe1ebf9619f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>comments</sys_name>
+        <sys_package display_value="Bugs Bunny Hotel" source="x_80404_bugs_bunny">1676ee91db931300329ffe1ebf96193b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bugs Bunny Hotel">1676ee91db931300329ffe1ebf96193b</sys_scope>
+        <sys_update_name>sys_data_policy_rule_bece6083dbd31300329ffe1ebf9619f0</sys_update_name>
+        <sys_updated_by>workhstayh</sys_updated_by>
+        <sys_updated_on>2018-07-18 22:56:20</sys_updated_on>
+        <table>x_80404_bugs_bunny_check_in</table>
+    </sys_data_policy_rule>
+</record_update>

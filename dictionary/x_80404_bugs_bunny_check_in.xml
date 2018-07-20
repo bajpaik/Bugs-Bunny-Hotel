@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Check-in" max_length="40" name="x_80404_bugs_bunny_check_in" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="40" name="comments" type="string"/>
-        <element dynamic_creation="true" dynamic_creation_script="if(value.split(' ').length&gt;2);&#13;&#10;current.user_name = value.split(' ')[0].toLowerCase()+'.'+value.split(' ').slice(-1).join(' ').toLowerCase();&#13;&#10;current.name = value;&#13;&#10;current.insert();&#13;&#10;gs.addInfoMessage(value + '  was created dynamically as &quot;Dynamic Creation&quot; Checkbox is true.');" label="Guest" max_length="32" name="guest" reference="x_80404_bugs_bunny_guest" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="200" name="comments" type="string"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element choice="3" dynamic_creation="true" dynamic_creation_script="if(value.split(' ').length&gt;2);&#13;&#10;current.user_name = value.split(' ')[0].toLowerCase()+'.'+value.split(' ').slice(-1).join(' ').toLowerCase();&#13;&#10;current.name = value;&#13;&#10;current.insert();&#13;&#10;gs.addInfoMessage(value + '  was created dynamically as &quot;Dynamic Creation&quot; Checkbox is true.');" dynamic_ref_qual="0558015fdb1f1300329ffe1ebf96190a" label="Guest" max_length="32" name="guest" reference="x_80404_bugs_bunny_guest" reference_qual="javascript:guestsWithReservations()" type="reference" use_reference_qualifier="dynamic">
+            <choice/>
+        </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="3" label="Room" max_length="32" name="room" reference="x_80404_bugs_bunny_room" reference_cascade_rule="clear" type="reference">
             <choice/>
